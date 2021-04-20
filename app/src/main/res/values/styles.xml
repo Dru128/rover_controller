@@ -13,11 +13,11 @@
         <item name="background">@color/grey_5</item>
     </style>
 
-    <style name="seekBar_controller" parent="@style/Widget.AppCompat.SeekBar">
+    <style name="seekBar_controller">
         <item name="android:thumb">@drawable/thumb</item>
         <item name="android:progressDrawable">@color/grey_4.5</item>
-        <item name="android:layout_height">250dp</item>
-        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:background">@color/grey_4</item>
         <item name="android:max">200</item>
         <item name="android:progress">100</item>

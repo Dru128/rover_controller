@@ -2,11 +2,6 @@
     <string name="app_name">rover controller</string>
 
     <string name="output">output:</string>
-
-    <string name="left_forward">lf</string>
-    <string name="left_back">lb</string>
-    <string name="right_forward">rf</string>
-    <string name="right_back">rb</string>
     <string name="left_speed">left speed:</string>
     <string name="right_speed">right speed:</string>
     <string name="auto_commit">автофиксация</string>

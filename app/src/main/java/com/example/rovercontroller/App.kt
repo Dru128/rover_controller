@@ -9,7 +9,6 @@ class App: Application()
     override fun onCreate()
     {
         super.onCreate()
-        Toast.makeText(applicationContext, "start app", Toast.LENGTH_SHORT).show()
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
     }
 }

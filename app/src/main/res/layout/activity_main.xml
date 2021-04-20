@@ -184,6 +184,7 @@
 
                 <TextView
                     android:id="@+id/output_text"
+                    android:textSize="11dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="top" />
@@ -282,10 +283,15 @@
         app:cardCornerRadius="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/left_panel">
-
-        <android.widget.VerticalSeekBar
-            android:id="@+id/left_seekBar"
-            style="@style/seekBar_controller" />
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="50dp"
+            android:layout_height="250dp">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/left_seekBar"
+                style="@style/seekBar_controller"
+                android:splitTrack="false"
+                app:seekBarRotation="CW270" />
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -298,9 +304,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/right_panel">
 
-        <android.widget.VerticalSeekBar
-            android:id="@+id/right_seekBar"
-            style="@style/seekBar_controller" />
+        <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper
+            android:layout_width="50dp"
+            android:layout_height="250dp">
+            <com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBar
+                android:id="@+id/right_seekBar"
+                style="@style/seekBar_controller"
+                android:splitTrack="false"
+                app:seekBarRotation="CW270" />
+        </com.h6ah4i.android.widget.verticalseekbar.VerticalSeekBarWrapper>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
